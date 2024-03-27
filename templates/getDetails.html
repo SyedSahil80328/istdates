@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <title>Announcements</title>
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <a href=" {{ url_for('auth.loginForm', myCategory = category) }} " class="icons"><i class="fas fa-home" title="Your home"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RNA RAILWAY SITE</h1>
+        <div class="login-box">
+            <h2>Give Announcement</h2>
+            <form action="/createAudio/{{category}}" method="post">
+                <div class="user-box">
+                    <select name="hours" id="hours">
+                        <div id="loop1"></div>
+                    </select>
+                    <label for="hours">Hours</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <select name="minutes" id="minutes">
+                        <div id="loop2"></div>
+                    </select>
+                    <label for="minutes">Minutes</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <input type="text" id="platNo" name="platNo" required>
+                    <label for="platNo">Platform Number</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <input type="text" id="trainNo" name="trainNo" required>
+                    <label for="trainNo">Train Number</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <input type="text" id="trainName" name="trainName" required>
+                    <label for="trainName">Train Name</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <input type="text" id="fromStation" name="fromStation" required>
+                    <label for="fromStation">From Station</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <input type="text" id="toStation" name="toStation" required>
+                    <label for="toStation">To Station</label><br><br>
+                </div>
+                <div class="user-box">    
+                    <select name="annType" id="annType">
+                        <option value="arrival">Arrival</option>
+                        <option value="depature">Departure</option>
+                        <option value="arrival shortly">Arriving soon</option>
+                        <option value="depature shortly">Departing shortly</option>
+                        <option value="standing">Standing</option>
+                    </select>
+                    <label for="annType">Type of Announcement</label><br><br>
+                </div>
+
+                <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Generate
+                </button>
+            </form>
+
+            <!-- Add this section to display error messages -->
+            {% if errorMessage %}
+            <div class="alert alert-danger">
+                {{ errorMessage }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+<script>
+    h = document.getElementById('hours');
+    m = document.getElementById('minutes');
+    hs = "";
+    ms = "";
+    for (i=0 ; i<60 ; i++) {
+        if (i<24) 
+            hs += `<option value="${i}">${i}</option>`;
+        ms += `<option value="${i}">${i}</option>`;
+    }
+    h.innerHTML = hs;
+    m.innerHTML = ms;
+</script>
+</html>

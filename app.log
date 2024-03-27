@@ -1,0 +1,1021 @@
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:52] "GET /clearLogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:52] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:52] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:52] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:53] "GET /viewLogs/Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:43:53] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:07] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:09] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:09] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:09] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:30] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:30] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:32] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:32] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:32] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:32] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:51] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:51] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:51] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:51] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:58] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:58] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:58] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:44:58] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:07] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:07] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:07] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:14] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:14] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:14] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:14] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:20] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:20] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:20] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:20] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:29] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:29] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:29] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:45:29] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:my_logger:User Rupesh A logged in on 12/11/2023 at 03:46:41 PM.
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:41] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:41] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:41] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:45] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:45] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:46:45] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:12] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:12] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:12] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:45] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:45] "GET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:45] "GET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:45] "GET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:48:45] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:49:08] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:49:08] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 15:49:08] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:17] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:17] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:17] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:17] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:25] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:25] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:25] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:00:25] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:08] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:08] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:08] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:24] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:24] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:24] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:01:24] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:07] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:10] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:10] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:10] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:13] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:13] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:03:13] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:00] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:00] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:00] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:06] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:06] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:06] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:21] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:04:21] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:22:57] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:22:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:22:57] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:22:59] "[33mGET /getRailSchedule/master HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:23:22] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:23:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:23:22] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:18] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:18] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:18] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:58] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:58] "GET /static/application.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:24:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:00] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:00] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:00] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:02] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:02] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:25:02] "GET /static/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:27:32] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:27:32] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:27:32] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:33:17] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:33:17] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:33:17] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:35:16] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:35:16] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:35:16] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:38:29] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:38:29] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2023 17:38:29] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:09] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:35] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:35] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:36] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:40] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:40] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:15:40] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:48] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:48] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:48] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:57] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:16:57] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:00] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:00] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:00] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:52] "GET /login?myCategory= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:52] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:52] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:17:52] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:00] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:00] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:01] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:01] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:18:01] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:21:58] "GET /changePassword?logger=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:21:58] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:21:58] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:21:58] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:22:22] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:22:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:22:22] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:19] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:19] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:19] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:37] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:37] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:38] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:38] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:38] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:45] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:45] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:45] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:46] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:46] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:46] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:51] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:51] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:23:51] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:08] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:08] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:08] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:08] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:50] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:50] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:51] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:51] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:55] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:55] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:57] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:57] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:59] "GET /login?myCategory= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:59] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:59] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:24:59] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:06] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:06] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:10] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:10] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:10] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:37] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:37] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:41] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:41] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:41] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:43] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:43] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:25:43] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:19] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:19] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:19] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:40] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:49] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:49] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:26:49] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Rupesh A logged out on 16/11/2023 at 09:27:28 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:28] "GET /logout?cat=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:28] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:31] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:31] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:36] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:36] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:36] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:36] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged out on 16/11/2023 at 09:27:44 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:44] "GET /logout?cat=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:44] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:47] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:47] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:50] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:50] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:50] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged out on 16/11/2023 at 09:27:52 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:52] "GET /logout?cat=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:52] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:27:55] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:14] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:14] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:17] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:17] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:17] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:31:17] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:35] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:35] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:44] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:44] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:48] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:48] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:48] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:32:48] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:03] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:03] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:04] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:04] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:04] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:04] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:20] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:20] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:29] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:29] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:29] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:29] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged in on 16/11/2023 at 09:33:48 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:48] "POST /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:48] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:48] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:57] "GET /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:33:57] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:20] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:20] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:20] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:23] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:23] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:34:23] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:12] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:12] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:16] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:16] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:16] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:22] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:24] "GET /login?myCategory=Clerk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:24] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:24] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:24] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:31] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:31] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:33] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:33] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:33] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:33] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Rupesh A logged in on 16/11/2023 at 09:35:43 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:43] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:43] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:43] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:54] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:54] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:35:54] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:56] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:56] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:56] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:59] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:59] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:36:59] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:03] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:03] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:03] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:25] "GET /login?myCategory= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:25] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:25] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:25] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:31] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:32] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:39] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:39] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:39] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:39] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:49] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:49] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:51] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:51] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:51] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:55] "GET /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:55] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:58] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:37:59] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:02] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:02] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:02] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:05] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:05] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:05] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:15] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:15] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:15] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:15] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:19] "GET /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:19] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:38:19] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:15] "POST /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:15] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:15] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:41] "POST /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:41] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:41] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:57] "POST /finalizeBooking/Customer/IqEUNGJYnlOFy9B4jj6r/REPjvawXn9LupImxQ712/1/First%20Class%20AC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:57] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:57] "[35m[1mGET /finalizeBooking/Customer/IqEUNGJYnlOFy9B4jj6r/REPjvawXn9LupImxQ712/static/inputs.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:39:57] "[35m[1mGET /finalizeBooking/Customer/IqEUNGJYnlOFy9B4jj6r/REPjvawXn9LupImxQ712/static/application.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:06] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:06] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:09] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:09] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:10] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:11] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:11] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:40:22] "GET /openPDF/REPjvawXn9LupImxQ712_IqEUNGJYnlOFy9B4jj6r.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:07] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:07] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:11] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:41:11] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:43:49] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:43:49] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:43:49] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:43:49] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged in on 16/11/2023 at 09:44:03 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:03] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:03] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:03] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:03] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:14] "GET /viewLogs/Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:14] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:26] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:26] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:26] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:44:26] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:42] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:42] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:43] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:43] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:43] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Rupesh A logged out on 16/11/2023 at 09:46:50 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:50] "GET /logout?cat=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:50] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:53] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:53] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:55] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:55] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged out on 16/11/2023 at 09:46:57 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:57] "GET /logout?cat=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:46:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:00] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:00] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:02] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:02] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:02] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:02] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged out on 16/11/2023 at 09:47:05 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:05] "GET /logout?cat=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:05] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:08] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:47:08] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:48:59] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:48:59] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:48:59] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 09:48:59] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:43] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:43] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:46] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:46] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:46] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:46] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Rupesh A logged in on 16/11/2023 at 10:00:53 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:53] "POST /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:53] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:53] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:55] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:00:55] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:40] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:40] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:46] "[35m[1mPOST /createAudio/master HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:46] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:46] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:01:46] "[36mGET /createAudio/master?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:22] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:25] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:25] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:25] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:28] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:28] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:22:28] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:15] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:15] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:15] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:21] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:21] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:28] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:28] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:28] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:28] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged in on 16/11/2023 at 10:23:36 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:36] "POST /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:36] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:36] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:40] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:40] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:23:40] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:24:05] "[32mGET /cancelBooking/Customer/REPjvawXn9LupImxQ712/GN6oZ56YhVk6yzpR2a5s HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:24:05] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:24:05] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:24:05] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:46] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:46] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:54] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:54] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:54] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged out on 16/11/2023 at 10:50:59 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:59] "GET /logout?cat=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:50:59] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:02] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:02] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:04] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:04] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:04] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:04] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil A logged in on 16/11/2023 at 10:51:18 AM.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:18] "POST /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:18] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:18] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:32] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:32] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:32] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:41] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:41] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:44] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:44] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:44] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:47] "GET /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:47] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:51:47] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:22] "POST /bookTicket/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:22] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:50] "POST /finalizeBooking/Customer/hIPtAxWrpINRZDZfJ0Cz/REPjvawXn9LupImxQ712/1/First%20Class%20AC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:51] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:51] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:51] "[35m[1mGET /finalizeBooking/Customer/hIPtAxWrpINRZDZfJ0Cz/REPjvawXn9LupImxQ712/static/inputs.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:57:51] "[35m[1mGET /finalizeBooking/Customer/hIPtAxWrpINRZDZfJ0Cz/REPjvawXn9LupImxQ712/static/application.css HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:23] "GET /openPDF/REPjvawXn9LupImxQ712_hIPtAxWrpINRZDZfJ0Cz.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:32] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:32] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:39] "GET /login?myCategory=Master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:40] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:40] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:44] "GET /giveAnnouncements/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:44] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:58:44] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:41] "POST /createAudio/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:41] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:41] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:47] "GET /login?myCategory=master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:47] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:47] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:49] "GET /getRailSchedule/master HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:49] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2023 10:59:49] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:54:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:54:52] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:54:52] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:54:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:55:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:55:34] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:55:34] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:56:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:56:50] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:56:50] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:09] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:09] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:15] "GET /getBookings/Customer/REPjvawXn9LupImxQ712 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:15] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 20:57:15] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:04:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:04:31] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:04:31] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:19:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:19:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2023 21:19:55] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:47] "GET /static/application.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:47] "GET /static/Master.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:57] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:57] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:57] "GET /static/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:55:57] "GET /static/changeType.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:09] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:09] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:09] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged in on 26/03/2024 at 08:56:16 PM.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:16] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:16] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:16] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:56:16] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:57:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:57:54] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 20:57:54] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\delete.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\TDES.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:23:59] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:23:59] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:23:59] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:23:59] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:07] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:09] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:10] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:10] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:10] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:38] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:38] "GET /signupSuccess/Syed%20Sahil HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:39] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:42] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:24:42] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:08] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:08] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:08] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:08] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged in on 26/03/2024 at 09:25:28 PM.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:28] "POST /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:28] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:28] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:39] "GET /changePassword?logger=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:39] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:39] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:25:39] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:26:04] "POST /changeIt?logger=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:26:04] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:26:04] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:51] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:51] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:53] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:53] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:53] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:53] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:56] "GET /viewLogs/Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 21:27:56] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 19:47:20] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:01] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:01] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:04] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:04] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:04] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:07] "GET /changePassword?logger=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:07] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:07] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:45] "POST /changeIt?logger=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:45] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:25:45] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:my_logger:User Syed Sahil logged out on 27/03/2024 at 08:33:02 PM.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:02] "GET /logout?cat=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:02] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:05] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:05] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:07] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:07] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:07] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:07] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged out on 27/03/2024 at 08:33:10 PM.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:10] "GET /logout?cat=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:10] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:13] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:14] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:16] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:16] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:17] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:17] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:25] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:25] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:25] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:25] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:33] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:33] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:33] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:33] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:40] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:40] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:40] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:33:40] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:33] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:33] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:33] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:33] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:58] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:35:58] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:01] "GET /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:01] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:01] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:01] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:my_logger:User Syed Sahil logged in on 27/03/2024 at 08:36:09 PM.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:09] "POST /login?myCategory=Customer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:09] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:36:09] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\TDES.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\TDES.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:22] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:22] "[36mGET /static/Master.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:24] "GET /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:24] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:24] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:24] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:35] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:35] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:35] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:35] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:56] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:56] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:56] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:41:56] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:43:55] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:43:55] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:43:56] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:43:56] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:44:26] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:44:26] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:44:26] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:44:26] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758
+INFO:my_logger:User Syed Sahil logged in on 27/03/2024 at 08:45:34 PM.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:45:34] "POST /login?myCategory=Admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:45:34] "[36mGET /static/application.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:45:34] "[36mGET /static/changeType.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 20:45:34] "[36mGET /static/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\semester_5\\ooad projects\\html\\create.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 835-679-758

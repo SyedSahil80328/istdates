@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="{{ url_for('auth.loginForm', myCategory = 'Customer') }}" class="icons">
+            {% if session['customerLogged'] %}
+                <i class="fas fa-sign-in-alt logged" title="{{ session['customerLogged'][0] }}'s Home"></i>
+            {% else %}
+                <i class="fas fa-sign-in-alt" title="User Login"></i>
+            {% endif %}
+        </a><br><br>
+        <a href="{{ url_for('auth.signupForm') }}" class="icons"><i class="fas fa-user-plus" title="Sign Up"></i></a><br><br>
+        <a href="{{ url_for('auth.loginForm', myCategory = 'Clerk') }}" class="icons">
+            {% if session['clerkLogged'] %}
+                <i class="fas fa-user-secret logged" title="{{ session['clerkLogged'][0] }}'s Home"></i>
+            {% else %}
+                <i class="fas fa-user-secret" title="Clerk Login"></i>
+            {% endif %}
+        </a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <a href="{{ url_for('auth.loginForm', myCategory = 'Admin') }}" class="icons">
+            {% if session['adminLogged'] %}
+                <i class="fas fa-user-shield logged" title="{{ session['adminLogged'][0] }}'s Home"></i>
+            {% else %}
+                <i class="fas fa-user-shield" title="Admin Login"></i>
+            {% endif %}    
+        </a><br><br>
+        <a href="{{ url_for('auth.loginForm', myCategory = 'Master') }}" class="icons">
+            {% if session['adminLogged'] %}
+                <img src="{{ url_for('static',filename='Master.png') }}" class="icons icon">
+            {% else %}
+                <img src="{{ url_for('static',filename='Master.png') }}" class="icons icon">
+            {% endif %}    
+        </a><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RNA RAILWAY SITE</h1>
+        <div class="subBody centre">
+            <h2>UPDATES</h2>
+            <p class="updates centre">
+                {% if session['adminUpdates'] %}
+                    {{ session['adminUpdates'] | replace('\n', '<br>') | safe }}
+                {% else %}
+                    Updates posted by admin will be posted here
+                {% endif %}
+            </p>
+            <div>
+                <!-- Introduction Section -->
+                <section id="introduction">
+                    <h1>Welcome to Railway Nexus Automata</h1>
+                    <p>We are your one-stop destination for all things railway-related. Discover the world of railways like never before.</p>
+                </section>
+
+                <!-- Strengths Section -->
+                <section id="strengths">
+                    <h2>Our Strengths</h2>
+                    <ul>
+                        <li>
+                            <h3>Reliability</h3>
+                            <p>We take pride in offering reliable and punctual railway information. Count on us for up-to-date schedules, routes, and real-time updates.</p>
+                        </li>
+                        <li>
+                            <h3>Accessibility</h3>
+                            <p>Our platform is designed to be accessible to everyone. Whether you're a passenger, a rail enthusiast, or a logistics professional, you'll find what you need.</p>
+                        </li>
+                        <li>
+                            <h3>Comprehensive Information</h3>
+                            <p>From passenger services to freight logistics, we cover it all. Explore detailed railway maps, station information, and more.</p>
+                        </li>
+                        <li>
+                            <h3>Community and Engagement</h3>
+                            <p>Join our passionate railway community. Share your experiences, photos, and insights with fellow rail enthusiasts.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Important Modules Section -->
+                <section id="modules">
+                    <h2>Important Modules</h2>
+                    <ul>
+                        <li>
+                            <h3>Timetables and Schedules</h3>
+                            <p>Plan your journey with ease. Access detailed train schedules and timetables for a hassle-free trip.</p>
+                        </li>
+                        <li>
+                            <h3>Station Information</h3>
+                            <p>Find information about railway stations. Discover amenities, parking, and accessibility options.</p>
+                        </li>
+                        <li>
+                            <h3>Freight Services</h3>
+                            <p>For businesses and logistics professionals. Explore our freight services and shipping solutions.</p>
+                        </li>
+                        <li>
+                            <h3>Railway News and Updates</h3>
+                            <p>Stay informed about the latest developments. Get news on railway projects, improvements, and innovations.</p>
+                        </li>
+                        <li>
+                            <h3>Contact Us</h3>
+                            <p>Have questions or need assistance? Reach out to our dedicated support team.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Explore Section -->
+                <section id="explore">
+                    <h2>Explore Railway Nexus Automata</h2>
+                    <ul>
+                        <li>
+                            <h3>About Us</h3>
+                            <p>Learn more about our mission, vision, and values. Meet the team behind Railway Nexus Automata.</p>
+                        </li>
+                        <li>
+                            <h3>Join Our Community</h3>
+                            <p>Connect with fellow rail enthusiasts. Share your railway experiences and knowledge.</p>
+                        </li>
+                        <li>
+                            <h3>Partnerships</h3>
+                            <p>Explore partnership opportunities with us. Collaborate on railway projects and initiatives.</p>
+                        </li>
+                        <li>
+                            <h3>FAQs</h3>
+                            <p>Find answers to common questions. Get help with using our platform effectively.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Stay Connected Section -->
+                <section id="stay-connected">
+                    <h2>Stay Connected</h2>
+                    <ul>
+                        <li>
+                            <h3>Follow Us on Social Media</h3>
+                            <p>Join us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>. Stay updated with the latest railway news and trends.</p>
+                        </li>
+                        <li>
+                            <h3>Newsletter</h3>
+                            <p>Subscribe to our newsletter. Receive railway updates, travel tips, and special offers in your inbox.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Footer Section -->
+                <footer>
+                    <p>&copy; 2023 Railway Nexus Automata</p>
+                </footer>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<!--
+    <i class="fas fa-user"></i> User Profile
+    <i class="fas fa-edit"></i> Edit Profile
+    <i class="fas fa-lock"></i> Change Password
+    <i class="fas fa-sign-out-alt"></i> Logout
+    <i class="fas fa-sign-in-alt"></i> Sign In
+    <i class="fas fa-user-plus"></i> Sign Up
+    <i class="fas fa-users"></i> Teams
+    <i class="fas fa-user-shield"></i> Admin
+    <i class="fas fa-chalkboard-teacher"></i> Master
+    <i class="fa fa-spinner fa-pulse"></i>
+    <i class="fas fa-user-secret"></i> Clerks
+-->

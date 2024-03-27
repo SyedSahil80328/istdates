@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <title>Home</title>
+</head>
+<body onload="setTime();">
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <a href="{{ url_for('auth.changePassword', logger = 'Admin') }}" class="icons"><i class="fas fa-key" title="Change Password"></i></a><br><br>
+        <a href="{{ url_for('auth.logout', cat = 'Admin') }}" class="icons"><i class="fas fa-sign-out-alt" title="Log Out"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RAILWAY NEXUS AUTOMATA</h1>
+        <p>Good <span id="greet"></span> Master {{ session['adminLogged'][0] }}!</p>
+        <div class="login-box widthAdjust">
+            <h2>Your Toolbar</h2>
+            <div align="center">
+                <a href="/viewLogs/Admin">
+                    <button>
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        Admin Logs
+                    </button>
+                </a>
+                <button class="warning" id="deleteLogs">
+                    <span></span>    
+                    <span></span>    
+                    <span></span>    
+                    <span></span>    
+                    Clear Logs
+                </button>
+                <a href="{{ url_for('auth.addUser', logger = 'Admin') }}">
+                    <button class="blue">
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        Add Employee
+                    </button>
+                </a>
+                <a href="/">
+                    <button class="safe">
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        <span></span>    
+                        RNA Website
+                    </button>
+                </a>
+                <button class="warning" id="deleteBook">
+                    <span></span>    
+                    <span></span>    
+                    <span></span>    
+                    <span></span>    
+                    Delete past bookings
+                </button>
+            </div>
+        </div>
+        <p id="times"></p>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='changeType.js') }}"></script>
+<script>
+    document.getElementById("deleteBook").addEventListener('click', function() {
+        if (window.confirm("Are you sure to delete all past bookings done by passengers?\nThis can't be undone!")) 
+            window.location.href = "/deletePastBookings/Admin";
+    });
+    document.getElementById("deleteLogs").addEventListener('click', function() {
+        if (window.confirm("Are you sure to delete all logs created?\nThis can't be undone!")) 
+            window.location.href = "/clearLogs";
+    });
+</script>
+</html>

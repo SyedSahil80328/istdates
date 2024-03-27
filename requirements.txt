@@ -1,0 +1,8 @@
+flask
+flask-session
+auth
+blueprint
+pygame
+gTTS
+pdfkit
+logging 

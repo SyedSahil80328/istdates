@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <title>Train Booking</title>
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <a href=" {{ url_for('auth.loginForm', myCategory = user) }} " class="icons"><i class="fas fa-home" title="Your home"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right" id="dynamics"></div>
+</body>
+<script>
+    r = document.getElementById("dynamics");
+    count = "{{ count }}" * 1;
+    var contents = 
+    `<h1>RNA RAILWAY SITE</h1>
+        <div class="login-box">
+            <h2>Ticket Booking</h2>
+            <form action="/finalizeBooking/{{user}}/{{bid}}/{{id}}/{{count}}/{{coach}}" method="post">`;
+
+    for (i=0 ; i<count ; i++) {
+        var subContents = 
+            `<div class="user-box">
+                <input type="text" id="name${i+1}" name="name${i+1}" required value=""><br><br>
+                <label for="name${i+1}">Name of Passenger ${i+1}</label>
+            </div>
+            <div class="user-box">
+                <input type="number" id="age${i+1}" name="age${i+1}" required value=""
+                    oninput="validatePositiveInput(this)"><br><br>
+                <label for="age${i+1}">Age of Passenger ${i+1}</label>
+            </div>
+            <div class="user-box">
+                <select id="gender${i+1}" name="gender${i+1}" required value="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br><br>
+                <label for="gender${i+1}">Gender of Passenger ${i+1}</label>
+            </div>
+            <div class="user-box">
+                <select id="berth${i+1}" name="berth${i+1}" required value="">
+                    <option value="Lower">Lower</option>
+                    <option value="Middle">Middle</option>
+                    <option value="Upper">Upper</option>
+                    <option value="Side Lower">Side Lower</option>
+                    <option value="Side Upper">Side Upper</option>
+                </select><br><br>
+                <label for="berth${i+1}">Preferred berth of Passenger ${i+1}</label>
+            </div>`;
+
+        contents += subContents;
+    }
+
+    contents += 
+    `{% if error %}
+    <div class="alert alert-danger">
+        {{ error }}
+    </div>
+    {% endif %}
+    <button type="submit">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+    </button>
+</form>
+</div>`;
+    r.innerHTML = contents;
+
+    function validatePositiveInput(input) {
+        const value = input.value;
+        if (value < 0) {
+            // If the value is negative, set it to an empty string
+            input.value = "";
+            alert("Please enter a positive value.");
+        }
+    }
+
+</script>
+</html>

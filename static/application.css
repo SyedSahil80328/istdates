@@ -1,0 +1,188 @@
+@keyframes bounce {
+    0% { color: white;}
+    100% { color: lightgreen;}
+}
+
+/* Apply the animation to the icon on hover */
+a .logged {
+    animation: bounce 0.5s ease infinite;
+}
+
+body {
+    font-family: 'Cascadia Mono','Segoe UI','Roboto','Arial';
+    font-size: 17px;
+    background-color: black;
+    padding: 35px;
+}
+
+.icon {
+    height: 25px;
+}
+
+.myBody {
+    min-height: 90vh;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    width: 96%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.icons {
+    color: white;
+    text-decoration: none;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.updates {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.warning {color: rgb(190, 25, 25);}
+
+.warning:hover {
+    background-color: red;
+    box-shadow: 0 0 5px red,
+                0 0 25px red,
+                0 0 50px red,
+                0 0 100px red;
+}
+
+.warning span:nth-child(1) {background: linear-gradient(90deg, transparent, red);}
+.warning span:nth-child(2) {background: linear-gradient(180deg, transparent, red);}
+.warning span:nth-child(3) {background: linear-gradient(270deg, transparent, red);}
+.warning span:nth-child(4) {background: linear-gradient(360deg, transparent, red);}
+
+.safe {color: green;}
+
+.safe:hover {
+    background-color: green;
+    box-shadow: 0 0 5px green,
+                0 0 25px green,
+                0 0 50px green,
+                0 0 100px green;
+}
+
+.safe span:nth-child(1) {background: linear-gradient(90deg, transparent, green);}
+.safe span:nth-child(2) {background: linear-gradient(180deg, transparent, green);}
+.safe span:nth-child(3) {background: linear-gradient(270deg, transparent, green);}
+.safe span:nth-child(4) {background: linear-gradient(360deg, transparent, green);}
+
+.download {color: purple;}
+
+.download:hover {
+    background-color: purple;
+    box-shadow: 0 0 5px purple,
+                0 0 25px purple,
+                0 0 50px purple,
+                0 0 100px purple;
+}
+
+.download span:nth-child(1) {background: linear-gradient(90deg, transparent, purple);}
+.download span:nth-child(2) {background: linear-gradient(180deg, transparent, purple);}
+.download span:nth-child(3) {background: linear-gradient(270deg, transparent, purple);}
+.download span:nth-child(4) {background: linear-gradient(360deg, transparent, purple);}
+
+.blue {color: blue;}
+
+.blue:hover {
+    background-color: blue;
+    box-shadow: 0 0 5px blue,
+                0 0 25px blue,
+                0 0 50px blue,
+                0 0 100px blue;
+}
+
+.blue span:nth-child(1) {background: linear-gradient(90deg, transparent, blue);}
+.blue span:nth-child(2) {background: linear-gradient(180deg, transparent, blue);}
+.blue span:nth-child(3) {background: linear-gradient(270deg, transparent, blue);}
+.blue span:nth-child(4) {background: linear-gradient(360deg, transparent, blue);}
+
+.subBody {
+    width: 92%;
+}
+
+.container {display: flex; gap: 10px; flex-wrap:wrap;}
+.container2 {display: flex; gap: 20px;}
+.element {margin: 10px; margin-bottom: 20px;  flex: 0.33;}
+.subBody .login-box {color: white;}
+
+.click:hover {
+    cursor:pointer;
+}
+
+#menuButton {
+    top: 45px;
+    left: 20px;
+    position: fixed;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.alert {
+    color: rgb(248, 3, 40);
+}
+
+.fas {
+    transition: all 0.25s ease;
+    padding-left: 1.5px;
+    font-size: 20px;
+}
+
+.fas:hover {
+    text-shadow: -5px 5px 10px white, 5px -5px 10px white, 5px 5px 10px white, -5px -5px 10px white;
+    padding: 0px;
+    color: black;
+}
+
+input[type="date"]::placeholder {
+    text-align: right;
+}
+
+@media (max-width: 1200px) {
+    body {
+        text-align: justify;
+        padding-right: 15px;
+        padding-left: 34px;
+    }
+    .myBody {
+        width: 93%;
+    }
+    .element {
+        flex: 0.5;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        text-align: justify;
+        padding-right: 5px;
+        padding-left: 50px;
+    }
+    .myBody {
+        width: 90%;
+    }
+    .element {
+        flex: 1;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <title>Home</title>
+</head>
+<body onload="setTime();">
+    <div class="container">
+        <div id="menuButton">
+            <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+            <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+            <a href="{{ url_for('auth.changePassword', logger = 'Master') }}" class="icons"><i class="fas fa-lock" title="Change Password"></i></a><br><br>
+            <a href="{{ url_for('auth.logout', cat = 'Master') }}" class="icons"><i class="fas fa-sign-out-alt" title="Log Out"></i></a><br><br>
+            <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+            <i class="fas fa-comment" title="Feedback"></i><br><br>
+            <i class="fas fa-star" title="Features"></i>
+        </div>
+        <div></div>
+    </div>
+    <div class="myBody right">
+        <h1>RAILWAY NEXUS AUTOMATA</h1>
+        <p>Good <span id="greet"></span> {{ session['masterLogged'][0] }}!</p>
+        <p><a href="/">RNA website</a></p>
+        <p><a href="/giveAnnouncements/master">Give an Announcement</a></p>
+        <p><a href="/getRailSchedule/master">Get Railway Schedule</a></p>
+        <p id="times"></p>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='changeType.js') }}"></script>
+</html>

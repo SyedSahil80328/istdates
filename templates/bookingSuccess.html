@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <link rel="stylesheet" href="../static/application.css">
+    <link rel="stylesheet" href="../static/inputs.css">
+    <title>Success Registration</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" for="/">
+    <meta http-equiv="Pragma" content="no-cache" for="/">
+    <meta http-equiv="Expires" content="0" for="/">
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href=" {{ url_for('auth.loginForm', myCategory = user) }} " class="icons"><i class="fas fa-home" title="Your home"></i></a><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RNA RAILWAY SITE</h1>
+        <div class="subBody centre">
+            <p>Your reservation has been stored and a ticket has been generated Successfully. Click on the below button to Proceed with downloading the ticket.</p>    
+            <a href="/openPDF/{{fileName}}" target="_blank">
+                <button type="submit" class="download">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Preview Ticket
+                </button>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    function redirectYou () {
+        window.location.href = "{{ url_for('auth.loginForm', myCategory = user) }}"; 
+    }
+</script>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <title>Train Booking</title>
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <a href=" {{ url_for('auth.loginForm', myCategory = user) }} " class="icons"><i class="fas fa-home" title="Your home"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RNA RAILWAY SITE</h1>
+        <div class="login-box">
+            <h2>Ticket Booking</h2>
+            <form action="/bookTicket/{{user}}/{{id}}" method="post">
+                <div class="user-box">
+                    <input type="email" id="email" name="myEmail" required value="{{ myEmail }}"><br><br>
+                    <label for="myEmail">Email</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" id="number" name="myNumber" required value="{{ myNumber }}"><br><br>
+                    <label for="myNumber">Phone Number</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" id="fromLoc" name="fromLoc" required value="{{ fromLoc }}"><br><br>
+                    <label for="fromLoc">From Station</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" id="toLoc" name="toLoc" required value="{{ toLoc }}"><br><br>
+                    <label for="toLoc">To Location</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" id="passengers" name="passengers" required value="{{ passengers }}"><br><br>
+                    <label for="passengers">No of passengers</label>
+                </div>
+                <div class="user-box">
+                    <input type="date" id="travelDate" name="travelDate" required value="{{ travelDate }}"><br><br>
+                    <label for="travelDate">Date of Boarding</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" id="trainNumber" name="trainNumber" required value="{{ trainNumber }}"><br><br>
+                    <label for="trainNumber">Train Number</label>
+                </div>
+                <div class="user-box">
+                    <select id="coach" name="coach" required value=" {{ coach }}">
+                        <option value="First Class AC">First Class AC</option>
+                        <option value="AC 2 Tier">AC 2 Tier</option>
+                        <option value="AC 3 Tier">AC 3 Tier</option>
+                        <option value="AC Chair Car">AC Chair Car</option>
+                        <option value="Sleeper Non-AC">Sleeper Non-AC</option>
+                        <option value="Second Class">Second Class</option>
+                        <option value="Chair Car">Chair Car</option>
+                        <option value="Unreserved">Unreserved</option>
+                    </select><br><br>
+                    <label for="coach">Preference</label>
+                </div>
+                {% if error %}
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+                {% endif %}
+                <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

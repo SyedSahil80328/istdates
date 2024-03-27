@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='application.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='inputs.css') }}">
+    <title>Bookings</title>
+</head>
+<body>
+    <div id="menuButton">
+        <i class="fas fa-expand fa-beat" title="Expand Menu"></i><br><br>
+        <a href="/" class="icons"><i class="fas fa-train-tram" title="RNA site"></i></a><br><br>
+        <a href=" {{ url_for('auth.loginForm', myCategory = category) }} " class="icons"><i class="fas fa-home" title="Your home"></i></a><br><br>
+        <i class="fas fa-envelope" title="Contact Us"></i><br><br>
+        <i class="fas fa-comment" title="Feedback"></i><br><br>
+        <i class="fas fa-star" title="Features"></i>
+    </div>
+    <div class="myBody right">
+        <h1>RNA RAILWAY SITE</h1>
+        <!-- <div class="login-box">
+            {{ phase1 }} <br>
+            {{ phase2 }}
+        </div> -->
+        <div class="subBody centre container">
+            {% if phase1 %}
+                {% for i in phase1 %}
+                    <div class="login-box element click" id = "overall{{loop.index}}" onclick="giveAllDetails('{{loop.index}}')">
+                        <h1>YOUR BOOKING {{ loop.index }}</h1>
+                        <div class="container2">
+                            <div>
+                                {{ i[2] }}
+                            </div>
+                            <div>
+                                {{ i[3] }}
+                            </div>
+                        </div>
+                        <div>
+                            From {{ i[4] }} to {{ i[5] }} on train {{ i[8] }} at {{ i[7] }}
+                        </div>
+                        <div>
+                            {{ i[6] }} Passengers at {{ i[9] }}
+                        </div>
+                        <p style="color: #03e9f4;font-style: italic; text-decoration: underline; opacity: 60%;">View <span id="{{loop.index}}">more</span> details <i class="fas fa-angle-down" id="arrow{{loop.index}}" title="Contact Us"></i></p>
+                        <div id="div{{loop.index}}"></div>
+                        <button id="downloadButton{{loop.index}}" class="download">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Download PDF now
+                        </button>
+                        <button id="confirmationButton{{loop.index}}" class="warning">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Cancel Booking
+                        </button>
+                    </div>
+                    <script>
+                        document.getElementById('confirmationButton{{loop.index}}').addEventListener("click", function() {
+                            if (window.confirm("Are you Sure to cancel your ticket?.\nCancellation will not be undone."))
+                                window.location.href = '/cancelBooking/{{category}}/{{i[1]}}/{{i[0]}}';
+                        });
+                        document.getElementById('downloadButton{{loop.index}}').addEventListener('click', function() {
+                            window.open("/openPDF/{{i[1]}}_{{i[0]}}.pdf", "_blank")
+                        });
+                    </script>
+                {% endfor %}
+            {% else %}
+                <div>
+                <p>Looks like you haven't booked any tickets to be previewed. <br>
+                <a href="/bookTicket/Customer/{{ session['customerLogged'][1] }}" style="text-align: left;">
+                    <button class="safe">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Start with a booking
+                    </button>
+                </a></p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+<script>
+    function giveAllDetails(id) {
+        r = document.getElementById("div"+id);
+
+        people = {{ phase2 | tojson | safe }};
+        myString = "<br><h1>PASSENGER DETAILS</h1><hr>";
+        i = 0
+        e = id*1 - 1;
+        for (w of people[e]) 
+            myString += 
+        `<h2>DETAILS OF PASSENGER ${++i}</h2>
+        <p>Name: ${w[2]} </p>
+        <p>Age: ${w[3]} </p>
+        <p>Gender: ${w[4]} </p>
+        <p>Preferred Berth: ${w[5]} </p><hr>
+        `;
+        r.innerHTML = myString;  
+        document.getElementById(`overall${id}`).setAttribute('onclick', `hide(${id});`);
+        document.getElementById(id).textContent = "less";
+        document.getElementById(`arrow${id}`).style.transform = "rotate(180deg)";
+    }
+
+    function hide(id) {
+        document.getElementById(`div${id}`).style.display = "none";
+        document.getElementById(`overall${id}`).setAttribute("onclick", `show(${id});`);
+        document.getElementById(id).textContent = "more";
+        document.getElementById(`arrow${id}`).style.transform = "rotate(0deg)";
+    }
+
+    function show(id) {
+        document.getElementById(`div${id}`).style.display = "block";
+        document.getElementById(`overall${id}`).setAttribute("onclick", `hide(${id});`);
+        document.getElementById(id).textContent = "less";
+        document.getElementById(`arrow${id}`).style.transform = "rotate(180deg)";
+    }
+
+</script>
+</html>
