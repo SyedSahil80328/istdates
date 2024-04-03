@@ -9,10 +9,6 @@ import logging,models
 logging.basicConfig(filename='app.log', level=logging.INFO)
 logger = logging.getLogger('my_logger')
 
-app = Flask(__name__)
-
-Session(app)
-
 app = Flask(__name__, static_folder='static')
 
 # Register the Blueprint with the main app
