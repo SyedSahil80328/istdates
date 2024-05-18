@@ -4,5 +4,4 @@ auth
 blueprint
 pygame
 gTTS
-pdfkit
-logging 
+pdfkit 
