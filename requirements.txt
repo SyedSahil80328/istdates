@@ -5,3 +5,4 @@ blueprint
 pygame
 gTTS
 pdfkit 
+pandas
