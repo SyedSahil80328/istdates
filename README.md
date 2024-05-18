@@ -30,5 +30,5 @@ TDES is widely used in various industries for securing sensitive data, especiall
 7. Open signup icon and create an account.
 8. Open another window of CMD.
 9. Navigate to same directory your application is running.
-10. Run `python create.py`. It will contain your entire sign in credentials.
+10. Run `python UserDetails.py`. It will contain your entire sign in credentials.
 11. You'll see that the password is stored in encrypted form.
