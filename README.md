@@ -1,4 +1,14 @@
-# Understanding TDES and it's implementation
+# Railway Nexus Automata
+Railway Nexus Automata or Railway Station Management System is a web-based application system which manages all railway related activities. It has been built to support the following activities
+
+1. **User Authentication**: This application has categorized the users as passengers, Station Masters, Station Clerks and Administrator. This application is loaded with strong encryption algorithm called TDES which is a block cipher for secured authentication. It ensures that no users can interchange their level of accessibilies.
+2. **Railway ticket booking**: The users of passenger level can book their tickets by giving their personal details and mode of transportation. Based on the availability, a ticket will be generated with user details using Python's pdfkit module.
+3. **Checking daily schedules**: Station masters can get the schedule of train in which it arrives at the current stations. All they need is to enter the station code. They get all the trains with timings with the help of ClearTrip updates.
+4. **Announcement system with gTTs**: Station Masters can announce the passengers about the arrival and departure of a train with platform number and time with the help of Python's gTTs.
+5. **Admin related activities**: This application is provided with facilities for administrators about checking the daily login of every users and creating organizational logins for railway employees.
+
+Now let's see about the encryption algorithm used for login and signup purpose.
+
 ## Encryption and Decryption
 
 Encryption is the process of converting plain text or data into a ciphertext, which is a scrambled and unreadable format, using an algorithm and a key. The purpose of encryption is to protect the confidentiality of the information being transmitted or stored, ensuring that only authorized parties can access and decipher it.
@@ -19,6 +29,8 @@ TDES operates in three modes:
 
 TDES is widely used in various industries for securing sensitive data, especially where legacy systems or regulatory requirements dictate its usage. However, due to its relatively slow speed and the emergence of more efficient encryption algorithms with stronger security properties, TDES is gradually being replaced by modern encryption standards like AES (Advanced Encryption Standard).
 
+In this application, the first category (**TDES-EEA3**) is used which uses three independent keys for password encryption.
+
 ## Implementation Steps
 
 1. Open CMD or Powershell.
@@ -32,3 +44,5 @@ TDES is widely used in various industries for securing sensitive data, especiall
 9. Navigate to same directory your application is running.
 10. Run `python UserDetails.py`. It will contain your entire sign in credentials.
 11. You'll see that the password is stored in encrypted form.
+
+ **Note**: Creating ticket requires [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) application. So install it by clicking on the link given.
